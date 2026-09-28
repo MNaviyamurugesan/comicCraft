@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ComicCraft - Create Comics</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>ComicCraft</h1>
+<nav>
+<a href="index.html">Home</a>
+<a href="pages/about.html">About</a>
+</nav>
+</header>
+
+<div class="controls">
+<input type="text" id="dialogue" placeholder="Enter character dialogue...">
+<button onclick="addBubble()">Add Bubble</button>
+<button onclick="clearAll()">Clear</button>
+</div>
+
+<div id="comic-panel">
+<img src="https://img.freepik.com/free-vector/blank-comic-template_23-2147538718.jpg" id="bg">
+<div id="bubbles"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
